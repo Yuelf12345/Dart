@@ -37,6 +37,7 @@ void main() {
   print(map);
   print(map1);
 
+  // ignore: unnecessary_type_check
   print('hello' is String);
 
   String price = '100.1';
@@ -44,6 +45,7 @@ void main() {
     print('empty');
   }
   var numPrice = double.parse(price);
+  // ignore: unnecessary_type_check
   print(numPrice is double);
 
   // List 方法
